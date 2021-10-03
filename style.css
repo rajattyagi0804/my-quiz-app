@@ -5,14 +5,16 @@
 }
 body {
   font-family: "Lato";
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 .wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vw;
-  height: 100vh;
-  background-color: #341f97;
+  margin-top: 120px;
+  /* background-color: #341f97; */
 }
 
 .welcome_text {
@@ -152,3 +154,7 @@ body {
   text-align: center;
   margin-top: 15px;
 }
+
+
+
+
